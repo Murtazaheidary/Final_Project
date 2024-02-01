@@ -12,7 +12,7 @@
       @PlansPage
       Scenario: Validating User Plans Page and 4 Rows of data must be present
         #Then Four rows should be visible
-        Then 5 data rows must display
+        Then 4 data rows must display
 
         @CreateDate
         Scenario:Validate plans page's Create Date and Expire Date

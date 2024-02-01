@@ -8,10 +8,11 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @CucumberOptions(
         features = "classpath:features",
         glue = "bdd_final_project.framework.steps",
-        tags = "@FiveRows",
+        tags = "",
         dryRun = false,
         plugin = {
                 "html:target/cucumber_report/report.html",
+                "json:target/jsonReports/cucumber.json"
         },
         snippets = CAMELCASE,
         monochrome = true

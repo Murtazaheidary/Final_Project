@@ -7,7 +7,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.Browser;
 
 
 import java.io.FileInputStream;
@@ -58,7 +57,7 @@ public class BaseSetup {
     private Properties readProperties(){
 
         String propertyFilePath = System.getProperty("user.dir")
-                + "/src/test/resources/configs/dev-env.properties";
+                + "/src/test/resources/configs/qa-env.properties";
 
         Properties properties = new Properties();
         try {
